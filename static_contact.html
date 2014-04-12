@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+	This is the STATIC version of WT00897's contact layout.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=1320" />
+<link href="http://fonts.googleapis.com/css?family=Playball|Abel|Open+Sans" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery.poptrox-1.0.js"></script>
+<script type="text/javascript" src="static_init.js"></script>
+</head>
+<body>
+	<div id="bg0"></div>
+	<div id="bg1"></div>
+	<div id="wrapper">
+		<div id="sidebar">
+			<div id="logo">
+				<h1><a href="#">Untitled</a></h1>
+			</div>
+			<div id="nav">
+				<a href="#">
+					Photography
+				</a>
+				<a href="#">
+					Design
+				</a>
+				<a href="#">
+					Illustration
+				</a>
+				<a href="#">
+					About
+				</a>
+				<a href="#" class="active">
+					Contact
+				</a>
+			</div>
+			<div id="copyright">
+				&copy; 2012 Untitled Website.<br />
+				All rights reserved.
+			</div>
+		</div>
+		<div id="content" class="content-gallery">
+			<div class="page page-normal">
+				<div class="heading">
+					<h2>Contact Us</h2>
+					<h3>Amet tempus lorem bibendum etiam</h3>
+				</div>
+				<p>
+					Proin et non sed eleifend sed a massa. Cras et purus in augue et dolore etiam vestibulum eleifend.
+					auctor nec blandit enim sollicitudin non. Cras et purus in augue vestibulum eleifend.  Vestibulum 
+					commodo interdum scelerisque. Etiam vitae sed commodo sed lectus. Pellentesque in bibendum ante 
+					tempus phasellus lorem ipsum dolor sit amet. 
+				</p>
+				<!--
+					Note: This contact form isn't functional yet! To get it working you'll need to wire it up 
+					to server-side script (using the "action" attribute of the form tag) that will actually take the
+					form's input and email it to you. If you're not sure how to do this, get in touch with us.
+				-->
+				<form method="post" action="">
+					<fieldset>
+						<label for="fullname">Name</label>
+						<input class="text" type="text" name="fullname" id="fullname" />
+						<label for="email">Email</label>
+						<input class="text" type="text" name="email" id="email" />
+						<label for="subject">Subject</label>
+						<input class="text" type="text" name="subject" id="subject" />
+						<label for="message">Message</label>
+						<textarea name="message" id="message" rows="10" cols="30"></textarea>
+					</fieldset>
+					<!--
+						Note: I strongly recommend including a captcha code here to prevent folks from spamming
+						your contact form. For more on doing this, check out Recaptcha (a free Google service):
+						
+						http://www.google.com/recaptcha
+					-->
+					<fieldset>
+						<input type="submit" value="Send Message" class="button" />
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

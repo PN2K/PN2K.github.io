@@ -1,0 +1,13 @@
+$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+$('div.content').css('display', 'block');
+
+
+$('#thumbs').galleriffic({
+	imageContainerSel:      '#slideshow',
+	    controlsContainerSel:   '#controls',
+	    captionContainerSel:    '#caption'
+	    });
+
+$('#caption').on('click', 'a', function(){
+	alert($(this).attr('href'))
+	    });
