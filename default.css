@@ -294,3 +294,8 @@
 		float: right;
 		width: 550px;
 	}
+
+	.centered {
+		margin:0 auto;
+		text-align: center;
+	}
