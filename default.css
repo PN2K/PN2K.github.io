@@ -281,3 +281,16 @@
 		background: url(images/bg3.jpg);
 	}
 	
+
+	#wrap {
+		width:800px;
+	}
+
+	#left_col {
+		float:left;
+		width:200px;
+	}
+	#right_col {
+		float: right;
+		width: 550px;
+	}
