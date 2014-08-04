@@ -1,0 +1,198 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  color: #5a5a5a;
+  background-image: url(images/bg3.jpg);
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+#navbar-logo {
+    width: 80px;
+    height: 60px;
+    margin-top: -15px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#pn2klogobanner {
+  min-width: 700px;
+  left: -9999px;
+  right: -9999px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#pn2klogobanner2 {
+  min-width: 100px;
+  left: -9999px;
+  right: -9999px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-6 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h1 {
+  text-align: center;
+}
+.marketing h2 {
+  text-align: center;
+  font-weight: normal;
+}
+.marketing .col-lg-6 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.marketing {
+  margin-top: 30px;   
+}
+
+.other.marketing {
+  margin-top: 75px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  border: 1px solid gray;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.row {
+  margin: 60px 0;
+}
+
+/* Footer
+-------------------------------------------------- */
+
+footer { 
+  color: #cccccc;
+  padding: 15px;
+  height: auto;
+  background: url(images/bg2.jpg);
+}
+
+#innerfooter {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#bottomright {
+  padding-left: 20px;   
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/* PAGE STYLING
+-------------------------------------------------- */
+
+/* Boxes around images */
+.boxed {
+  padding: 20px;
+  background-image: url(images/bg1.jpg);
+  color: #cccccc;
+}
