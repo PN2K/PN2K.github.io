@@ -89,6 +89,26 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
+
+.donatebutton {
+  background:#d4412c;
+  background:-moz-linear-gradient(top,#d4412c 0%,#d4412c 100%);
+  background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#d4412c),color-stop(100%,#d4412c));
+  background:-webkit-linear-gradient(top,#d4412c 0%,#d4412c 100%);
+  background:-o-linear-gradient(top,##d4412c 0%,#d4412c 100%);
+  background:-ms-linear-gradient(top,##d4412c 0%,#d4412c 100%);
+  background:linear-gradient(top,##d4412c 0%,#d4412c 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d4412c', endColorstr='#d4412c',GradientType=0);
+  padding:10px 15px;
+  color:#fff;
+  font-family:'Helvetica Neue',sans-serif;
+  font-size:16px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:1px solid #d4412c
+}
+
 .marketing h1 {
   text-align: center;
 }
